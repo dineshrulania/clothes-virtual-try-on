@@ -10,7 +10,7 @@ def resize_img(path):
     im.save(path)
 
 
-for path in os.listdir('/content/inputs/test/cloth/'):
+for path in os.listdir('/inputs/test/cloth/'):
     resize_img(f'/content/inputs/test/cloth/{path}')
 
 os.chdir('/content/clothes-virtual-try-on')
